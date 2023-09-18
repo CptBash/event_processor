@@ -5,12 +5,12 @@ require_relative "lib/event_processor/version"
 Gem::Specification.new do |spec|
   spec.name = "event_processor"
   spec.version = EventProcessor::VERSION
-  spec.authors = ["TODO: Write your name"]
-  spec.email = ["TODO: Write your email address"]
+  spec.authors = ["Zachary Jones"]
+  spec.email = ["zjrubyhouse@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "This is a simple gem to process events."
+  spec.description = "process outbound/inbound events for rails apps"
+  spec.homepage = "N/A"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
